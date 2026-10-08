@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Donegal+One&family=GFS+Didot&display=swap');
+*, *:before, *::after {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url("courthouse.jpg");
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    margin: 0;
+    color: #ffffff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.links {
+display: flex;
+align-items: center;
+gap: 33px;
+}
+.join {
+display:flex ;
+align-items: center;
+gap: 12px
+}
+a {
+    color: black;
+}
+header {
+background-color:#BBD3BC;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 43px 204px 24px 17.5px;
+font-family: "GFS Didot", serif;
+ font-size: 10pt;
+}
+button {
+display: flex;
+padding: 10px 19px;
+justify-content: center;
+align-items: center;
+gap: 28px;
+border-radius: 25px;
+background: #395BAD;
+color: white;
+ font-family: "Donegal One", serif;
+}
+.name {
+    display: flex;
+width: 500px;
+padding: 0 20px;
+flex-direction: column;
+align-items: flex-end;
+justify-content: flex-start;
+gap: -20px;
+opacity: 0.95;
+background: #395BAD;
+padding: 20px;
+ font-family: "Donegal One", serif;
+ font-size: 12pt;
+}
